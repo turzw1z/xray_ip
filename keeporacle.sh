@@ -11,7 +11,7 @@ cat <<EOF >~/keep_oracle/crontab.sh
 
 for (( i = 0; i < 5; i+=1)); do
 
-    dd if=/dev/zero of=/tmp/test bs=1M count=512
+    dd if=/dev/zero of=/tmp/test bs=1M count=365
 done
 
 exit 0
